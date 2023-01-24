@@ -1,0 +1,158 @@
+@font-face {
+  font-family: idroid;
+  src: url("fontes/idroid.otf") format(opentype);
+}
+
+body {
+  background-color: #84e1ad;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+a.externo::after {
+  content: '\00A0\1F517';
+}
+
+
+main p{
+  margin: 15px 0px;
+  text-align: justify;
+  text-indent: 30px;
+  font-size: 1em;
+  line-height: 2em;
+}
+
+
+main {
+  margin: 70px;
+  margin-top: auto;
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 10px #00000062;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+main > h1 {
+  font-family: idroid, Helvetica, sans-serif;
+  color: #1a5c38;
+  background-color: #84e1ac6b;
+  font-size: 25px;
+}
+
+nav{
+  text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+}
+
+nav > a {
+  text-decoration: none;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+  margin: 5px;
+  padding: 10px;
+  transition-duration: .2s;
+}
+
+
+
+nav > a:hover{
+  background-color: #3cd782;
+  border-radius: 3px;
+}
+
+
+header {
+  background-image: linear-gradient(to bottom, #3cd782, #1a5c38);
+  color: white;
+  padding: 40px;
+  text-align: center;
+  min-height: 150px;
+}
+
+header > h1 {
+  text-shadow: 2px 2px 0px #00000056;
+  font-weight: bolder;
+}
+
+header > p{
+  text-shadow: 2px 2px 0px #0000004f;
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+}
+
+main h2 {
+  font-family: idroid;
+  color: #1a5c38;
+  background-image: linear-gradient(to right, #95d1a7e5, transparent);
+  font-size: 19px;
+  text-align: center;
+}
+
+.extra {
+  background-color: #cdfde2;
+  padding: 10px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 2px 2px 4px rgba(19, 44, 13, 0.486);
+}
+
+.titleextra {
+  background-color: #46b478;
+  color: white;
+  border-radius: 4px 4px 0px 0px;
+  padding: 5px;
+  font-weight: bold;
+  margin: -10px -10px 0px -10px;
+}
+
+.titleextra > p {
+  margin: 0px;
+}
+
+
+.lista{
+  columns: 2;
+}
+
+ul{
+  list-style-type: '\2714\00A0\00A0';
+}
+
+
+footer{
+  background-color: #1a5c38;
+  text-align: center;
+  color: white;
+  margin-bottom: 0px;
+  padding: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: #1a5c38;
+  font-weight: bold;
+}
+
+iframe {
+  width: 100%;
+  margin: auto;
+}
+
+
+.bugdroid {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.segredo {
+  color: #84e1ad;
+}
+
+abbr{
+  text-decoration: none;
+}
